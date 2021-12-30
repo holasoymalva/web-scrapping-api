@@ -1,5 +1,8 @@
 # Web Scrapping API
 
+## How to set environment variable:
+Add your env bariables in the file `./bash_profile` use the file `./bash_profile_example` as a reference.
+
 ## Deploy
 
 Run command : `./startup`
