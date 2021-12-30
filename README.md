@@ -2,7 +2,7 @@
 
 ## Deploy
 
-Run command : ./startup
+Run command : `./startup`
 
 ## Packages:
 
