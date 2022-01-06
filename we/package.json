@@ -1,0 +1,22 @@
+{
+  "name": "we",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "prebuild": "rm -rf dist .cache .parcel-cache",
+    "build:tailwind": "tailwindcss build src/style.css -c ./tailwind.config.js -o dist/style.css",
+    "watch": "npm run build:tailwind && parcel watch --no-hmr src/{background.js,popup.html}",
+    "build": "npm run build:tailwind && copy 'src/manifest.json' 'dist/' && parcel build src/{background.js,popup.html}"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.1",
+    "parcel": "^2.1.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.11"
+  },
+  "dependencies": {
+    "crx-hotreload": "^1.0.6"
+  }
+}
