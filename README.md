@@ -1,7 +1,10 @@
 # Web Scrapping API
 
-## How to set environment variable:
-Add your env bariables in the file `./bash_profile` use the file `./bash_profile_example` as a reference.
+## How to set environment:
+
+Add your env variables in the file `./bash_profile` use the file `./bash_profile_example` as a reference.
+
+And create a virtual environment with the commando `python3 -m venv scrapping-env` and add the dependencies in the `./root` path.
 
 ## Deploy
 
