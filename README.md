@@ -5,7 +5,7 @@ Add your env bariables in the file `./bash_profile` use the file `./bash_profile
 
 ## Deploy
 
-Run command : `./startup`
+Run command : `bash startup.sh`
 
 ## Packages:
 
