@@ -4,7 +4,10 @@
 
 Add your env variables in the file `./bash_profile` use the file `./bash_profile_example` as a reference.
 
-And create a virtual environment with the commando `python3 -m venv scrapping-env` and add the dependencies in the `./root` path.
+Create a virtual environment with the commando `python3 -m venv scrapping-env` and add the dependencies in the `./root` path.
+
+Install the necessary dependencies with `pip install -r requirements.txt`
+
 
 ## Deploy
 
