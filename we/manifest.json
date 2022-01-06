@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Lista de tareas",
+  "description": "Quick launch personal to-do list",
+  "version": "1.0.0",
+  "icon": { "lista":"lista_icon.png"},
+  "browser_action":{
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}

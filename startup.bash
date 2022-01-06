@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-source scrapping-env/bin/activate
+source api/scrapping-env/bin/activate
 #source ~/.bash_profile
 
 #echo $URL_API 
