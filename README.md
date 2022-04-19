@@ -11,7 +11,7 @@ Install the necessary dependencies with `pip install -r requirements.txt`
 
 ## Deploy
 
-Run command : `bash startup.sh`
+Run command : `./startup.bash`
 
 ## Packages:
 
