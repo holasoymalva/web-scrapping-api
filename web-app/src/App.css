@@ -1,0 +1,24 @@
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #71717C;
+}
+
+h1{
+  font-family: 'Courgette';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 85px;
+  text-align: center;
+  color: #A147CB;
+}
